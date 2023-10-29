@@ -18,7 +18,7 @@
 # 課程筆記區
 # 作業
 # 作業一
-* [作業一](https://github.com/40900114E/LATIA112-1/blob/hw1.ipynb)
+* [作業一](https://github.com/40900114E/LATIA112-1/blob/main/hw1.ipynb)
 # 作業二
 # 作業三
 # 專題連結區
