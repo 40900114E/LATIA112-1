@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "Chinese": 92,
+      "English": 80,
+      "Math": 70,
+      "Science": 63,
+      "Society": 95
+    },
+    {
+      "id": 2,
+      "Chinese": 88,
+      "English": 95,
+      "Math": 73,
+      "Science": 70,
+      "Society": 97
+    },
+    {
+      "id": 3,
+      "Chinese": 88,
+      "English": 97,
+      "Math": 72,
+      "Science": 71,
+      "Society": 89
+    }
+  ]
+}

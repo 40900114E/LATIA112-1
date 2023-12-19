@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+        body {
+            text-align: center;
+            margin: auto;
+        }
+        form {
+            text-align: center;
+        }
+    </style>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <h1>考試成績統計圖產生器</h1>
+    <h4>恭喜你完成段考了！這次考得怎麼樣呢？</h4>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <label for="Chinese">國文：</label>
+        <input type="number" id="score1" name="score1" >
+        <br><br>
+        <label for="English">英文：</label>
+        <input type="number" id="score2" name="score2" >
+        <br><br>
+        <label for="Math">數學：</label>
+        <input type="number" id="score3" name="score3" >
+        <br><br>
+        <label for="Science">自然：</label>
+        <input type="number" id="score4" name="score4" >
+        <br><br>
+        <label for="Society">社會：</label>
+        <input type="number" id="score5" name="score5" >
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+    <br>
+    <div>
+        <p>{{confirm}}</p>
+    </div>
+</body>
+
+</html>

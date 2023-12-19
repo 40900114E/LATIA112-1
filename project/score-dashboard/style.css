@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #imageGreater, #imageSmaller {
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+  }
+
+  #myGraph, #myGraph2 {
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  #myGraph3 {
+    width: 1200px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+  }  
